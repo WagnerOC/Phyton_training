@@ -116,7 +116,7 @@ print(f'From your rectangle: the base is:{base}.And the height is:{height}.So th
 print('Calculate the area of a square.')
 side = input('How long is one of the sides of your square? ')
 areaSquare = float(side) ** 2
-print(f'The area of your Square is:{areaSquare}')
+print(f'The areaSquararea of your Square is:{areaSquare}')
 
 
 
@@ -134,7 +134,7 @@ print(f'You will pay for the product with a {discount}percent discount: R${produ
 """04 - area of ​​a circle"""
 
 print('Calculate the area of ​​the circle')
-radius = ('What is the radius of the circle? ')
+radius = input('What is the radius of the circle? ')
 pi = 3.14
 area = float(pi) * float(radius**2)
 print(f'As the radius of the circle is {radius}. The area of the circle is: {area}')
@@ -146,7 +146,7 @@ print(f'As the radius of the circle is {radius}. The area of the circle is: {are
 print('Convert the Reais money into Dollar money.')
 reais = ('Type how many Reais you want to convert into Dollars: R$ ')
 dollar = 5.28 # 1 dollar is worth 5.28 reais
-dollarConvert = float(dollar) / float(dollar)
+dollarConvert = float(reais) / float(dollar)
 print(f'Since $1.00 is {dollar} reais today, converting R${reais} into dollars, you will have: ${dollarConvert} dollars!')
 
 
